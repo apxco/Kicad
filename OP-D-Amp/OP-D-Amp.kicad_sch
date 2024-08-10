@@ -1,0 +1,132 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a2afb3b1-1b3e-46fd-a0bf-9e80fa6f6a60")
+	(paper "A4")
+	(title_block
+		(title "OP-D-Amp Modulatorstufe")
+		(date "2023-10-09")
+		(comment 1 "https://www.elektronik-kompendium.de/public/schaerer/dreieckg.htm")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30.48 86.995)
+		(size 62.23 42.545)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b78ab66-958a-4438-94bd-f6eeb3170748")
+		(property "Sheetname" "Netzteil"
+			(at 30.48 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Netzteil.kicad_sch"
+			(at 30.48 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OP-D-Amp"
+				(path "/a2afb3b1-1b3e-46fd-a0bf-9e80fa6f6a60"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.845 27.94)
+		(size 62.23 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e48f986c-9b3e-49a4-ad94-2e09f65c8312")
+		(property "Sheetname" "Oszillator"
+			(at 29.845 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osziollator.kicad_sch"
+			(at 29.845 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OP-D-Amp"
+				(path "/a2afb3b1-1b3e-46fd-a0bf-9e80fa6f6a60"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 26.67)
+		(size 73.025 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e73c7bc6-f9a8-4517-8e4a-e472ea21b2cb")
+		(property "Sheetname" "Analog Addierer"
+			(at 110.49 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Addierer-Analog.kicad_sch"
+			(at 110.49 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OP-D-Amp"
+				(path "/a2afb3b1-1b3e-46fd-a0bf-9e80fa6f6a60"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
