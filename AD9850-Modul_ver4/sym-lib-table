@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "arnd_eigen")(type "Legacy")(uri "/home/arnd/Programmieren/Kicad/Libary_Eigen/Eigene Bibliothek.pretty/arnd_eigen.lib")(options "")(descr ""))
+  (lib (name "DDS_A2_rev1-rescue")(type "KiCad")(uri "${KIPRJMOD}/DDS_A2_rev1-rescue.kicad_sym")(options "")(descr ""))
+)
