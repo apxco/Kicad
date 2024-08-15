@@ -2909,6 +2909,36 @@
 		)
 		(uuid "f78c56dc-1e10-4f9c-aa4b-c4653d8d8c47")
 	)
+	(text "U1 oder U2 nicht gemeinsam!"
+		(exclude_from_sim no)
+		(at 214.376 86.614 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "556d94b0-f1db-49fa-96aa-aeb7757b4cd9")
+	)
+	(text "Durchkontaktiert"
+		(exclude_from_sim no)
+		(at 122.682 69.85 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "78170f8f-163b-4584-8cde-5c4b748558f8")
+	)
+	(text "SMD"
+		(exclude_from_sim no)
+		(at 100.076 167.386 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "cc088975-7f6a-4187-bbd5-b5f61af4485d")
+	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 76.2 80.01 0)
@@ -3783,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 25.4 153.67 0)
 			(effects
 				(font
@@ -4525,7 +4555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 26.67 59.69 0)
 			(effects
 				(font
@@ -4665,7 +4695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 115.57 49.53 0)
 			(effects
 				(font
