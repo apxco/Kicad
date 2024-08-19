@@ -1,1 +1,1 @@
-richtig schlechter DC DC Step Down Wandler. Muss ich irgendwann mal reparieren.
+Richtig schlechter DC DC Step Down Wandle mit 12V Ausgangsspannung. Mehr als Machbarkietsstudie zu verstehen. In dieser Version noch nicht auf fertiger Platine getestet.
