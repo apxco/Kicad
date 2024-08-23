@@ -873,6 +873,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1719,7 +1852,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BD139"
+		(symbol "Transistor_BJT:BCP53"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1734,7 +1867,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BD139"
+			(property "Value" "BCP53"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1743,7 +1876,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1754,7 +1887,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1764,7 +1897,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(property "Description" "1A Ic, 80V Vce, PNP Medium Power Transistor, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1773,7 +1906,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Low Voltage Transistor"
+			(property "ki_keywords" "PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1782,7 +1915,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?126*"
+			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1791,10 +1924,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BD139_0_1"
+			(symbol "BCP53_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1806,19 +1939,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1837,12 +1958,12 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.2446 -1.778) (xy 1.7526 -1.27) (xy 2.286 -2.286) (xy 1.2446 -1.778) (xy 1.2446 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1856,7 +1977,7 @@
 					(center 1.27 0)
 					(radius 2.8194)
 					(stroke
-						(width 0.3048)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1864,11 +1985,11 @@
 					)
 				)
 			)
-			(symbol "BD139_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "BCP53_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1901,10 +2022,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "B"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1912,6 +2033,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1921,7 +2060,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BD140"
+		(symbol "Transistor_BJT:BCP56"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1936,7 +2075,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BD140"
+			(property "Value" "BCP56"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1945,7 +2084,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1956,7 +2095,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1966,7 +2105,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1975,7 +2114,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Low Voltage Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1984,7 +2123,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?126*"
+			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1993,10 +2132,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BD140_0_1"
+			(symbol "BCP56_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2008,19 +2147,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2039,12 +2166,12 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.778 -2.286) (xy 2.286 -1.778) (xy 1.27 -1.27) (xy 1.778 -2.286) (xy 1.778 -2.286)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2058,7 +2185,7 @@
 					(center 1.27 0)
 					(radius 2.8194)
 					(stroke
-						(width 0.3048)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2066,11 +2193,11 @@
 					)
 				)
 			)
-			(symbol "BD140_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "BCP56_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2103,10 +2230,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "B"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2114,6 +2241,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2352,6 +2497,12 @@
 		)
 	)
 	(junction
+		(at 102.87 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "046f5d2d-f250-415a-b611-662bdec41c4e")
+	)
+	(junction
 		(at 39.37 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2364,16 +2515,16 @@
 		(uuid "06cc5787-b460-4355-a8cd-bdef2c7eb7b7")
 	)
 	(junction
+		(at 102.87 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a633fc7-f510-4a51-9cca-bee4774accfb")
+	)
+	(junction
 		(at 54.61 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "116f6b2a-40ac-4b87-b4a3-d1300dfba9d9")
-	)
-	(junction
-		(at 102.87 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1488e624-ea4a-4ad8-9170-d211a1fca2cc")
 	)
 	(junction
 		(at 48.26 41.91)
@@ -2422,12 +2573,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57473cfd-d70a-4f2c-ab1c-ab0038bdb26b")
-	)
-	(junction
-		(at 102.87 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66725d6b-a038-4a91-9c7f-d65d2fc81673")
 	)
 	(junction
 		(at 110.49 48.26)
@@ -2523,7 +2668,7 @@
 		(at 110.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4c4ef8b-b255-431a-b105-06f700db5c3a")
+		(uuid "e11ca609-09a4-4d36-a047-d97a311f282d")
 	)
 	(junction
 		(at 158.75 105.41)
@@ -2573,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 74.93) (xy 50.8 74.93)
+			(xy 46.99 74.93) (xy 49.53 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2843,6 +2988,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f85767-fe1b-40d3-9ebb-11a642dd384b")
+	)
+	(wire
+		(pts
 			(xy 33.02 130.81) (xy 39.37 130.81)
 		)
 		(stroke
@@ -2883,6 +3038,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 69.85) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cf20c0-31e1-4666-9882-a0ca60be0862")
+	)
+	(wire
+		(pts
 			(xy 41.91 118.11) (xy 54.61 118.11)
 		)
 		(stroke
@@ -2920,6 +3085,16 @@
 			(type default)
 		)
 		(uuid "659af4ca-9fb6-4401-81d2-71c842db5dc5")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 102.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6665cb78-9a8c-4343-b676-8344c717db64")
 	)
 	(wire
 		(pts
@@ -3163,16 +3338,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 102.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c33c08-0980-4e37-addc-fd5633c53702")
-	)
-	(wire
-		(pts
 			(xy 54.61 118.11) (xy 54.61 127)
 		)
 		(stroke
@@ -3243,16 +3408,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 55.88) (xy 102.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce27b99a-68a3-4154-a52d-04fc2c0dec03")
-	)
-	(wire
-		(pts
 			(xy 110.49 63.5) (xy 116.84 63.5)
 		)
 		(stroke
@@ -3313,7 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 102.87 69.85)
+			(xy 102.87 55.88) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3451,6 +3606,85 @@
 			(justify left bottom)
 		)
 		(uuid "71f28f3a-6777-4126-987d-62b058d3d7c6")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 107.95 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02010b04-6344-4f66-b0f3-6936e563d804")
+		(property "Reference" "Q5"
+			(at 113.03 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FTZ853"
+			(at 113.03 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 113.03 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1b92beaa-36fe-4d50-b2c3-32513257ef38")
+		)
+		(pin "3"
+			(uuid "ee34b475-1c72-4ae1-9031-0ad60a8b3153")
+		)
+		(pin "2"
+			(uuid "c6dcda2f-c82e-4250-b0a3-d6660f82a9e9")
+		)
+		(pin "1"
+			(uuid "df0de766-e799-470a-b6de-e4f773fbfd3c")
+		)
+		(instances
+			(project ""
+				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3803,82 +4037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 100.33 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "127c7663-db3d-412c-b614-a00110945314")
-		(property "Reference" "Q1"
-			(at 105.2068 77.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 105.2068 79.9521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 105.41 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "577823d0-9674-4489-8702-09a940548731")
-		)
-		(pin "1"
-			(uuid "77441cd3-cac3-4b6f-964d-2c0d63ed16fe")
-		)
-		(pin "2"
-			(uuid "70feac3d-a050-4e01-9982-96d718e53fc8")
-		)
-		(instances
-			(project "DCDC_mid"
-				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 31.75 85.09 0)
 		(mirror x)
@@ -4081,82 +4239,6 @@
 			(project "DCDC_mid"
 				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 107.95 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a7917a7-f9c7-4116-8c89-6b5af3b5d5ce")
-		(property "Reference" "Q2"
-			(at 112.8268 57.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 112.8268 59.6321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 113.03 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 107.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45847039-6127-467c-8eb2-9d386b988d90")
-		)
-		(pin "1"
-			(uuid "02ce113a-d033-4708-8fa2-894687487c32")
-		)
-		(pin "2"
-			(uuid "fb934529-e33c-451c-9b30-b888ac7b7b48")
-		)
-		(instances
-			(project "DCDC_mid"
-				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5413,6 +5495,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 100.33 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8abd4226-bd49-47fd-9f6c-49011bd4cf67")
+		(property "Reference" "Q6"
+			(at 105.41 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FTZ853"
+			(at 105.41 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 105.41 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2c406b6b-9a92-430e-9a3e-d09feb7887be")
+		)
+		(pin "3"
+			(uuid "1b745630-296c-4d03-bad9-0f4883a8ba47")
+		)
+		(pin "2"
+			(uuid "4b01ee2d-f3b3-4586-953e-36ac6bdfb498")
+		)
+		(pin "1"
+			(uuid "41e2acdc-4fd4-415d-8b09-4ceb3d45f6fe")
+		)
+		(instances
+			(project "DCDC_mid"
+				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 53.34 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cba4276-7ed7-4dd3-a214-d3b1bfc982f0")
+		(property "Reference" "F1"
+			(at 53.34 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 53.34 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Littelfuse_372_D8.50mm"
+			(at 53.34 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 53.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f56d990-796e-404e-9ad4-4a6953ae76bb")
+		)
+		(pin "2"
+			(uuid "0cf4dc71-404e-40c7-8d3d-cf7c84c6ea88")
+		)
+		(instances
+			(project ""
+				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 137.16 111.76 90)
 		(unit 1)
@@ -5966,6 +6195,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BCP53")
+		(at 107.95 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b30608d-53ec-42a4-be57-9298ba6147f7")
+		(property "Reference" "Q1"
+			(at 113.03 71.1201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FTZ953"
+			(at 113.03 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 113.03 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF"
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, PNP Medium Power Transistor, SOT-223"
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f2a518-90ff-46bd-8cba-7a8b3d1324fb")
+		)
+		(pin "4"
+			(uuid "88a99043-71b3-4061-a08b-939e0bed63a7")
+		)
+		(pin "3"
+			(uuid "52f5b212-eb71-498f-b13c-bd1e272e1ff8")
+		)
+		(pin "2"
+			(uuid "0347e541-362f-4ed0-9ffc-aec288254442")
+		)
+		(instances
+			(project ""
+				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 44.45 0)
 		(unit 1)
@@ -6326,83 +6634,6 @@
 			(project "DCDC_mid"
 				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BD140")
-		(at 107.95 69.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba8b6619-344f-4d14-9620-7c76a90556c8")
-		(property "Reference" "Q3"
-			(at 112.8268 68.6379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD140"
-			(at 112.8268 71.0621 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 113.03 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 107.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "29f5035d-27b0-469b-a5a3-22f5eacc36df")
-		)
-		(pin "3"
-			(uuid "d66c2f4d-d236-4064-9af5-8bf0f187cd10")
-		)
-		(pin "1"
-			(uuid "95bfd96e-e017-404c-ba57-118aa86b8b16")
-		)
-		(instances
-			(project "DCDC_mid"
-				(path "/6223a5f4-c243-4547-8c88-bb7b5a32f283"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7051,7 +7282,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 50.8 74.93 0)
+		(at 59.69 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7060,7 +7291,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6a07b03-c25e-473c-a789-0c8357ba9803")
 		(property "Reference" "#PWR06"
-			(at 50.8 77.47 0)
+			(at 59.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7300,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 50.8 68.1299 0)
+			(at 59.69 68.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +7308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 74.93 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 74.93 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 74.93 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
