@@ -4590,6 +4590,26 @@
 		)
 		(uuid "7ce7415d-7c22-49f6-8215-488853ccc8c6")
 	)
+	(text "Anstatt R8 Diode bestücken, D3 und D4 kann dann entfallen."
+		(exclude_from_sim no)
+		(at 226.06 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d39c269-ec85-4f23-ae4c-af375af8c64d")
+	)
+	(text "R7 und D8 für unterdrückung von Schwingungen, beide oder keine bestücken."
+		(exclude_from_sim no)
+		(at 233.68 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93af36cb-6bdb-4ebd-bd5f-4675963a8ba0")
+	)
 	(global_label "CT"
 		(shape input)
 		(at 72.39 92.71 90)

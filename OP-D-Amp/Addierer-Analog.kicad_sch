@@ -5,10 +5,9 @@
 	(uuid "df1e52b9-5e1e-4a16-8db4-262bc48207a6")
 	(paper "A4")
 	(title_block
-		(date "2023-12-21")
-		(rev "V2")
-		(comment 1 "Verbesserungen aus 1. Version eingearbeitet. ")
-		(comment 2 "Fehler falsche Footprints korrigiert, Schaltungsänderungen")
+		(date "2024-09-27")
+		(rev "V3")
+		(comment 1 "Verbesserungen aus 2. Version eingearbeitet. ")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:NE5532"
@@ -1892,6 +1891,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e23eaa5-a423-49f1-a365-2bc008f51458")
+	)
+	(wire
+		(pts
 			(xy 210.82 97.79) (xy 210.82 104.14)
 		)
 		(stroke
@@ -1929,16 +1938,6 @@
 			(type default)
 		)
 		(uuid "28414732-b751-4706-b709-53fd6a475f03")
-	)
-	(wire
-		(pts
-			(xy 143.51 111.76) (xy 143.51 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a5965b9-7ef4-4552-9bb4-0be27efebed1")
 	)
 	(wire
 		(pts
@@ -2072,6 +2071,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6248b69c-84de-4227-8821-b8397bae1ef0")
+	)
+	(wire
+		(pts
 			(xy 91.44 158.75) (xy 91.44 163.83)
 		)
 		(stroke
@@ -2202,6 +2211,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 109.22) (xy 143.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b67d4ca-500f-4629-a7bb-45c909523d67")
+	)
+	(wire
+		(pts
 			(xy 62.23 101.6) (xy 66.04 101.6)
 		)
 		(stroke
@@ -2282,13 +2301,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 132.08 111.76)
+			(xy 124.46 118.11) (xy 132.08 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cedca26-a493-4eae-b743-f20d495c2f3a")
+		(uuid "930517b4-7168-457d-b662-62027b3542e7")
 	)
 	(wire
 		(pts
@@ -2309,16 +2328,6 @@
 			(type default)
 		)
 		(uuid "9ad86e30-1e1e-4c09-83f7-c80bed87e0ac")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 143.51 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a24d41ad-06d0-462a-96a9-59414241036e")
 	)
 	(wire
 		(pts
@@ -2412,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 132.08 99.06)
+			(xy 102.87 99.06) (xy 111.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 156.21) (xy 124.46 111.76)
+			(xy 124.46 156.21) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 72.39 106.68 90)
 			(effects
 				(font
@@ -4923,7 +4932,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 111.76 90)
+		(at 135.89 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4932,7 +4941,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf861682-c82d-4879-8563-345c97590e42")
 		(property "Reference" "R12"
-			(at 135.89 106.5997 90)
+			(at 135.89 112.9497 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4949,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 135.89 109.0239 90)
+			(at 135.89 115.3739 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +4957,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.89 113.538 90)
+			(at 135.89 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,6 +5708,75 @@
 			(project "OP-D-Amp"
 				(path "/a2afb3b1-1b3e-46fd-a0bf-9e80fa6f6a60/e73c7bc6-f9a8-4517-8e4a-e472ea21b2cb"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc314f8a-d9b3-4fee-9602-53f8de11a12d")
+		(property "Reference" "C21"
+			(at 114.935 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 116.205 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 119.38 98.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6bff74e-bbe3-45ba-8ef8-3f648d9971d3")
+		)
+		(pin "2"
+			(uuid "60a12a57-4b4b-4eb0-bc43-212571d43ceb")
+		)
+		(instances
+			(project "OP-D-Amp"
+				(path "/a2afb3b1-1b3e-46fd-a0bf-9e80fa6f6a60/e73c7bc6-f9a8-4517-8e4a-e472ea21b2cb"
+					(reference "C21")
 					(unit 1)
 				)
 			)

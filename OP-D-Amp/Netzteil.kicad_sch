@@ -2550,6 +2550,12 @@
 		(uuid "24da5537-3347-41cb-bc15-9d3b5f692b0e")
 	)
 	(junction
+		(at 55.245 75.565)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee74df8-e380-402a-b5db-ec20a204ac9f")
+	)
+	(junction
 		(at 151.13 154.305)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2586,12 +2592,6 @@
 		(uuid "b2ba1676-3b3f-47ca-96d7-a5b42f93cbed")
 	)
 	(junction
-		(at 55.245 75.565)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc20cf2c-40fa-46b7-933f-1d9e30e8d25d")
-	)
-	(junction
 		(at 151.13 146.685)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2602,6 +2602,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e434649d-6357-42ed-b0eb-6fd94c2456a7")
+	)
+	(wire
+		(pts
+			(xy 55.88 75.565) (xy 55.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018199d9-d432-4159-b69a-93163495bbdc")
 	)
 	(wire
 		(pts
@@ -2622,16 +2632,6 @@
 			(type default)
 		)
 		(uuid "0456548c-01ee-4936-bad0-b92608143a7a")
-	)
-	(wire
-		(pts
-			(xy 55.245 75.565) (xy 55.245 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b3a6dbc-70fa-4ac4-9469-c4f74e42363b")
 	)
 	(wire
 		(pts
@@ -2692,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "2afb38de-2a2a-4e4e-ad23-07c360f90dad")
+	)
+	(wire
+		(pts
+			(xy 55.245 106.68) (xy 55.245 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba365b3-00c5-4eb4-9f59-e0a538763c61")
 	)
 	(wire
 		(pts
@@ -2775,6 +2785,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.245 75.565) (xy 55.88 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52734fa7-d9ac-492b-a060-14f0e28f9733")
+	)
+	(wire
+		(pts
 			(xy 42.545 85.725) (xy 42.545 75.565)
 		)
 		(stroke
@@ -2792,16 +2812,6 @@
 			(type default)
 		)
 		(uuid "57496161-9f77-4925-80e3-2a75da120e8f")
-	)
-	(wire
-		(pts
-			(xy 55.245 106.045) (xy 55.245 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603a94fa-6321-499a-8005-d07b713a03ef")
 	)
 	(wire
 		(pts
@@ -2842,6 +2852,16 @@
 			(type default)
 		)
 		(uuid "6b06389c-6bf5-40f0-89bf-33aeff4d9678")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 55.245 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df6aa7b-9e88-4afe-b1af-33a543c5320a")
 	)
 	(wire
 		(pts
@@ -4053,7 +4073,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 55.245 74.295 0)
+		(at 55.88 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4061,7 +4081,7 @@
 		(dnp no)
 		(uuid "5e1cbc95-18f2-4256-a894-2ee300daa7b0")
 		(property "Reference" "#PWR04"
-			(at 55.245 78.105 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +4090,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 55.626 69.9008 0)
+			(at 56.261 67.9958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.245 74.295 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.245 74.295 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.245 74.295 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.245 106.045 0)
+		(at 55.88 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4264,7 +4284,7 @@
 		(dnp no)
 		(uuid "6dc4ea8f-46e2-4e11-8f04-a3b7ac557ebb")
 		(property "Reference" "#PWR05"
-			(at 55.245 112.395 0)
+			(at 55.88 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.372 110.4392 0)
+			(at 56.007 111.0742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.245 106.045 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.245 106.045 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4319,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.245 106.045 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
