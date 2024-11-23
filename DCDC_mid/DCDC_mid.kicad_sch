@@ -3596,6 +3596,16 @@
 		)
 		(uuid "fd3a21ea-82d9-4029-ba1a-36134c9b8ef0")
 	)
+	(text "R6 wird warm"
+		(exclude_from_sim no)
+		(at 92.71 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71e29c42-b43b-4853-8ae5-38e99a62ad95")
+	)
 	(text "TL431 Berechnet mit\nUin 20-30V\nUout 13V\n\n"
 		(exclude_from_sim no)
 		(at 30.48 161.925 0)
@@ -3606,6 +3616,16 @@
 			(justify left bottom)
 		)
 		(uuid "71f28f3a-6777-4126-987d-62b058d3d7c6")
+	)
+	(text "z.B. IRF4905"
+		(exclude_from_sim no)
+		(at 144.78 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc4bee81-1657-4e2b-93a4-5431090f1968")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BCP56")
@@ -3915,7 +3935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 104.648 53.2821 0)
 			(effects
 				(font
