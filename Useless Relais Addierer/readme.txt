@@ -3,7 +3,7 @@ Kombination aus Mikrocontroller und 8-Bit Relais Addierer.
 yC übernimmt die Ansteuerung der beiden Daten Bytes, die über die Relais Addiert werden und sorgt für die Ausgabe.
 
 
-![image alt](https://github.com/apxco/Kicad/blob/b3da3c4c3133e040013c6d495d997889dfc1a202/Useless%20Relais%20Addierer/RelaisAddierer/Bildschirmfoto_20250908_125710.png)
+![Alt text](https://github.com/apxco/Kicad/blob/b3da3c4c3133e040013c6d495d997889dfc1a202/Useless%20Relais%20Addierer/RelaisAddierer/Bildschirmfoto_20250908_125710.png)
 
 
 04.09.2025  Initiale Idee zum Projekt, Erstellung Schaltbild und Leiterplatte Version 0.1.
