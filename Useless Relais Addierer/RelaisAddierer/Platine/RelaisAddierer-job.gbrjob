@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.6"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2025-02-03T19:04:10+01:00"
+    "CreationDate": "2025-09-08T12:23:34+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Universal1Netzteil",
-      "GUID": "556e6976-6572-4736-916c-314e65747a74",
-      "Revision": "rev?"
+      "Name": "RelaisAddierer",
+      "GUID": "52656c61-6973-4416-9464-69657265722e",
+      "Revision": "0.1"
     },
     "Size": {
-      "X": 109.27,
-      "Y": 111.81
+      "X": 290.12,
+      "Y": 175.056
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,52 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 2.0
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Universal1Netzteil-F_Cu.gbr",
+      "Path": "RelaisAddierer-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Universal1Netzteil-B_Cu.gbr",
+      "Path": "RelaisAddierer-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Universal1Netzteil-F_Paste.gbr",
+      "Path": "RelaisAddierer-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Universal1Netzteil-B_Paste.gbr",
+      "Path": "RelaisAddierer-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Universal1Netzteil-F_Silkscreen.gbr",
+      "Path": "RelaisAddierer-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Universal1Netzteil-B_Silkscreen.gbr",
+      "Path": "RelaisAddierer-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Universal1Netzteil-F_Mask.gbr",
+      "Path": "RelaisAddierer-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Universal1Netzteil-B_Mask.gbr",
+      "Path": "RelaisAddierer-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Universal1Netzteil-Edge_Cuts.gbr",
+      "Path": "RelaisAddierer-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
