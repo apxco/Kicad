@@ -10,7 +10,7 @@ yC übernimmt die Ansteuerung der beiden Daten Bytes, die über die Relais Addie
 05.09.2025  Weiter an Leiterplatte, grobe Positionierung der Elemente, erste Schritte bei der Programmierung<br/>
 06.09.2025  Bauteile zurecht gerückt, klappt nicht gut mit KiCad muss ich sagen.<br/>
 07.09.2025  Layout steht soweit, keine wesentlichen Änderungen mehr vorgesehen an der Platine, jetzt Fehlersuche und Polieren.<br/>
-08.09.2025  Fehlerkorrekturen im Layout. Wesentlich noch 3,3V zu 5V Pegelwandler für die GPIO Pins eingesetzt.<br/>
+08.09.2025  Fehlerkorrekturen im Layout. Wesentlich noch 3,3V zu 5V Pegelwandler für die GPIO Pins eingesetzt. Im endstadium des Wahnsinns Platine bestellt, ab morgen Software <br/>
 
 
 Hintergrund:
