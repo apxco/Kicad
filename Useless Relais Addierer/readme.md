@@ -6,7 +6,9 @@ yC übernimmt die Ansteuerung der beiden Daten Bytes, die über die Relais Addie
 ![Frontplatte](https://github.com/apxco/Kicad/blob/b3da3c4c3133e040013c6d495d997889dfc1a202/Useless%20Relais%20Addierer/RelaisAddierer/Bildschirmfoto_20250908_125710.png)
 
 
-04.09.2025  Initiale Idee zum Projekt, Erstellung Schaltbild und Leiterplatte Version 0.1. <br/>
+https://www.youtube.com/watch?v=YAB79SiROqY
+
+04.09.2025  Initiale Idee zum Projekt, Erstellung Schaltbild und Leiterplatte Version 1.0 <br/>
 05.09.2025  Weiter an Leiterplatte, grobe Positionierung der Elemente, erste Schritte bei der Programmierung<br/>
 06.09.2025  Bauteile zurecht gerückt, klappt nicht gut mit KiCad muss ich sagen.<br/>
 07.09.2025  Layout steht soweit, keine wesentlichen Änderungen mehr vorgesehen an der Platine, jetzt Fehlersuche und Polieren.<br/>
@@ -66,4 +68,6 @@ Bis zum Abschluss der Berechnung soll die Ergebnisanzeige ständig aktualisiert 
 
 <br/>
 
+V1.0 Hack auf fast 2.0 ;-)
 
+![Rückseite](https://github.com/apxco/Kicad/blob/b3da3c4c3133e040013c6d495d997889dfc1a202/Useless%20Relais%20Addierer/RelaisAddierer/Adder1_0_hinten.jpg)
