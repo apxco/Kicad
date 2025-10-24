@@ -1743,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 55.88) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194907de-81a4-4650-b9f1-d04e8eed2de6")
+	)
+	(wire
+		(pts
 			(xy 199.39 120.65) (xy 204.47 120.65)
 		)
 		(stroke
@@ -1803,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 57.15) (xy 165.1 57.15)
+			(xy 132.08 55.88) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 132.08 57.15)
+			(xy 132.08 87.63) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2333,6 +2343,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 55.88) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8db907-b2ce-4942-b8a2-5ae7767d2155")
+	)
+	(wire
+		(pts
 			(xy 36.83 133.35) (xy 41.91 133.35)
 		)
 		(stroke
@@ -2600,6 +2620,16 @@
 			(type default)
 		)
 		(uuid "f78c56dc-1e10-4f9c-aa4b-c4653d8d8c47")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdece7d0-4cd5-4268-b25d-7bd59f7b4fbd")
 	)
 	(symbol
 		(lib_id "power:-12V")
@@ -3045,7 +3075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 57.15 90)
+		(at 156.21 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3053,7 +3083,7 @@
 		(dnp no)
 		(uuid "2b62a042-ef80-430d-bb68-696141dca83d")
 		(property "Reference" "R1"
-			(at 168.91 57.15 90)
+			(at 156.21 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3091,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 168.91 54.4139 90)
+			(at 156.21 53.1439 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 168.91 58.928 90)
+			(at 156.21 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 57.15 0)
+			(at 156.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 57.15 0)
+			(at 156.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

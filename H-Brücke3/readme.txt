@@ -1,1 +1,0 @@
-Version der H-Brücke2 mit nebeneinanderleigenden Leistungstransistoren

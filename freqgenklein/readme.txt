@@ -1,1 +1,0 @@
-Kleiner Oszillator zu testzwecken

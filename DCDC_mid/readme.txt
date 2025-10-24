@@ -1,1 +1,0 @@
-Richtig schlechter DC DC Step Down Wandler mit 12V Ausgangsspannung. Mehr als Machbarkietsstudie zu verstehen. In dieser Version funktioniert er, Spulenwert und Typen der Dioden nicht zu ernst nehmen.
