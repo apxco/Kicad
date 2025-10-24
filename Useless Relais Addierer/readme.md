@@ -70,4 +70,4 @@ Bis zum Abschluss der Berechnung soll die Ergebnisanzeige ständig aktualisiert 
 
 V1.0 Hack auf fast 2.0 ;-)
 
-![Rückseite](https://github.com/apxco/Kicad/blob/b3da3c4c3133e040013c6d495d997889dfc1a202/Useless%20Relais%20Addierer/RelaisAddierer/Adder1_0_hinten.jpg)
+![Rückseite](https://github.com/apxco/Kicad/blob/886e481ea10ae2acfe101e60ca78e179da667744/Useless%20Relais%20Addierer/RelaisAddierer/Adder1_0_hinten.jpg)
