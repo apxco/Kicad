@@ -1,3 +1,5 @@
-Netzteil unreguliert mit großer Kondensatorbank.
+Netzteil einfache Ausgangsspannung unreguliert mit großer Kondensatorbank.
 
-Aufgebaut und getestet, funktioniert.
+
+V1 aufgebaut und getestet, funktioniert.
+V2 nicht aufgebaut.

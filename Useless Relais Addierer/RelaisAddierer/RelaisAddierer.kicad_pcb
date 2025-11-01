@@ -71679,8 +71679,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AP 10/2025\nVersion 2.0"
-		(at 309.118 121.666 0)
+	(gr_text "apxco 10/2025\nVersion 2.0"
+		(at 306.5 120.5 0)
 		(layer "F.SilkS")
 		(uuid "d343f14c-4a09-4318-9304-759e2fe603f9")
 		(effects

@@ -7,7 +7,8 @@
 	(title_block
 		(title "Breadboard OP")
 		(date "2023-11-25")
-		(rev "1.0")
+		(rev "2.0")
+		(comment 1 "Anschlusspins Abstand geändert")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:NE5532"

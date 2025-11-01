@@ -1,3 +1,3 @@
-Netzteil unreguliert mit großer Kondensatorbank.
+Netzteil Duale Ausgangsspannung unreguliert mit großer Kondensatorbank.
 
-Aufgebaut und getestet, funktioniert.
+Noch nicht aufgebaut, ungetestet.

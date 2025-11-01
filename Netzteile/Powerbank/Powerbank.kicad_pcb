@@ -4416,7 +4416,7 @@
 		(property "Reference" "C21"
 			(at 7.238095 4 90)
 			(layer "F.SilkS")
-			(uuid "36be1513-0ae4-4a1f-a3e2-b5ab46de446f")
+			(uuid "10db2e95-8c1c-4e5e-b504-2e659ec48c63")
 			(effects
 				(font
 					(size 1 1)
@@ -4424,10 +4424,10 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "C"
 			(at 7.5 3.75 90)
 			(layer "F.Fab")
-			(uuid "90a78d52-7343-44ab-83fa-47ef3901b1fd")
+			(uuid "414859ec-1dda-49bf-b678-e93d39adcbf9")
 			(effects
 				(font
 					(size 1 1)
@@ -4439,7 +4439,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee29e671-315d-4da1-ba96-bf69ef7632d8")
+			(uuid "85ac04f0-8444-4ffe-baef-75b42dde8955")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,11 +4447,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a6f67b7-9e30-4fc2-97ef-8eb5a048ce21")
+			(uuid "c3405d76-c0c9-4e56-a4a9-0ffd785dd374")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,8 +4459,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
-		(path "/506fa5d9-f855-4da0-a71b-c1a3a972efbb")
+		(property ki_fp_filters "C_*")
+		(path "/ddd1df92-764c-4899-8883-ae942e1e1b4e")
 		(sheetname "/")
 		(sheetfile "Powerbank.kicad_sch")
 		(attr through_hole)
@@ -11210,7 +11210,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "C"
 			(at 7.5 3.75 90)
 			(layer "F.Fab")
 			(uuid "37c9a39f-12f9-430e-9475-3988642d20f4")
@@ -11233,7 +11233,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11245,8 +11245,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
-		(path "/a198805c-0e4a-4d4c-ac58-ef13367d8139")
+		(property ki_fp_filters "C_*")
+		(path "/cf560272-27aa-47f7-ae0d-90297e94adc8")
 		(sheetname "/")
 		(sheetfile "Powerbank.kicad_sch")
 		(attr through_hole)
@@ -20855,7 +20855,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "C"
 			(at 7.5 3.75 90)
 			(layer "F.Fab")
 			(uuid "4c2d00e1-0352-4bae-842f-a51ac6fa9dba")
@@ -20878,7 +20878,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20890,8 +20890,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
-		(path "/678dd623-6859-4e27-9c27-20787a75c2cb")
+		(property ki_fp_filters "C_*")
+		(path "/82c6042d-3a44-4fb6-9fc5-f2ec794d9fc9")
 		(sheetname "/")
 		(sheetfile "Powerbank.kicad_sch")
 		(attr through_hole)
@@ -37229,7 +37229,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "C"
 			(at 7.5 3.75 90)
 			(layer "F.Fab")
 			(uuid "71dbb77e-c6a1-42fa-ac89-52345727bbd8")
@@ -37252,7 +37252,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37264,8 +37264,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
-		(path "/4ffe4703-2131-4071-88a4-8e8842de0db3")
+		(property ki_fp_filters "C_*")
+		(path "/e5fdad1c-451f-4e58-89a7-97a0b567ce40")
 		(sheetname "/")
 		(sheetfile "Powerbank.kicad_sch")
 		(attr through_hole)

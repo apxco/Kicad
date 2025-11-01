@@ -10,7 +10,7 @@
 	(title_block
 		(title "OP- Breadboard")
 		(date "2023-11-28")
-		(rev "1.0")
+		(rev "2.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -7393,6 +7393,76 @@
 		(layer "Dwgs.User")
 		(uuid "d21f5672-61b4-44c6-9948-ab8e88f96bb4")
 	)
+	(gr_line
+		(start 191.5 90)
+		(end 241.5 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "29eda379-67f7-4df7-9bc7-516d8fca635d")
+	)
+	(gr_line
+		(start 191.5 147)
+		(end 191.5 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d9f5c66-aa58-4cec-b3cf-e2f444727436")
+	)
+	(gr_line
+		(start 241.5 147)
+		(end 191.5 147)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fa95573b-d0eb-437a-ae08-c3912a7068d0")
+	)
+	(gr_line
+		(start 191.5 147)
+		(end 191.5 90)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "0f9f1926-69e4-4d98-9019-e6c527626bc9")
+	)
+	(gr_line
+		(start 191.5 90)
+		(end 241.5 90)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Margin")
+		(uuid "4b2c8404-346d-46d4-a87e-d0e4e8a3dfd3")
+	)
+	(gr_line
+		(start 241.5 90)
+		(end 241.5 147)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Margin")
+		(uuid "67b51721-b4f2-407f-9f08-637c9e657c3b")
+	)
+	(gr_line
+		(start 241.5 147)
+		(end 191.5 147)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "e145aba2-4921-457b-8bc5-ea3f34a6578f")
+	)
 	(gr_text "GND\n"
 		(at 231.5 143 90)
 		(layer "F.SilkS")
@@ -7489,7 +7559,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OP Breadboard\nV1.1"
+	(gr_text "OP Breadboard\nV2"
 		(at 228.5238 103.3526 0)
 		(layer "F.SilkS")
 		(uuid "b8e21c92-39ba-47aa-9070-ab582709f374")
