@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=YAB79SiROqY
 21.10.2025 Platine Version 1.0 weitere Fehler bei der Relaisverschaltung, wird in Version 2.0 korrigiert. <br/>
 23.10.2025 Soweit ist die SW fertig. Umsetzen der Ergebnis OK Anzeige mittels Inversion der Anzeige. Die verwendete Bibliothek kommt mit 2 Drehschaltern scheinbar nicht gut klar, immer einer der Schalter wird nicht richtig ausgewertet. Lasse es jetzt so, die Art der Bedienung, x10 wenn Druck auf SW1 für beide Bytes gefällt mir auch. Platine V2.0 Angefangen und erste Korrrekturen vorgenommen. Version 1.0 konnte ich mit zusätzlichen Leitungen zur Mitarbeit bewegen, funktioniert damit. Werde die Version 2.0 mit allen Korrekturen online stellen, aber nur Bestellen und Aufbauen wenn ich eine 2. Maschine baue. <br/>
 24.10.2025 Ich definiere die Software als fertig. Für den Zufallsmodus werden die Eingangswerte in 10 Schritten nacheinander eingegeben, ganz witzig anzusehen. 
-
+12.12.2025 Um ESD probleme in der Eingangsstufe zu vermeiden, Spannunsgteiler an den Eingängen eisetzt <br/>
 
 Hintergrund:
 
