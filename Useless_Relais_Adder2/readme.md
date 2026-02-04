@@ -10,6 +10,8 @@ yC übernimmt die Ansteuerung der beiden Daten Bytes, serieller Eingang der Bits
 06.12.2025  Anlage Ordners struktur, wir bauen die Ordnerstruktur auf den bekannten Addierer auf <br/>
 10.12.2025  Probleme mit Wayland und Kicad, keine Lösung in Sicht, werde keinen anderen Displayserver verwenden. Überlegungen zu nötigen Anzahl der Pins und zum Microcontroler, es soll kein PiPico werden. Am besten auch kein Modul.<br/>
 12.12.2025  Unter X11 keine Probleme mit KIcad, naja, etwas langsam ales nach letztem Update. Arbeiten an den Schieberegistern<br/>
+04.02.2026  Die letzten Wochen immer mal wieder reingesehen, Arbeiten an Platine nähert sich dem Abschluss.<br/>
+
 
 Hintergrund:
 

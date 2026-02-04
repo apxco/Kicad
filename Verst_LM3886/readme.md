@@ -8,3 +8,4 @@ Leistung, ich habe einen 16v Traffo und der Kühlkörper ist vorhanden, das muss
 
 
 04.01.2026  Erster Entwurf Schaltplan und Platine. 
+  
