@@ -1,3 +1,3 @@
 Netzteil Duale Ausgangsspannung unreguliert mit großer Kondensatorbank.
 
-Noch nicht aufgebaut, ungetestet.
+02/2026 Aufgebaut, funktioniert, C31 PAds vergrößert.

@@ -13,6 +13,7 @@
 		(rev "V2")
 		(comment 1 "V2 Anpassung Footprint Kondensatoren 5 mm und 7,5 mm")
 		(comment 2 "V2 größere Terminals")
+		(comment 3 "C32 pads vergrößert")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -27522,7 +27523,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
+			(size 2.2 2.2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -27532,7 +27533,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 15 0 270)
-			(size 1.6 1.6)
+			(size 2.2 2.2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -29799,7 +29800,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "77d1ca6a-1a9f-4e63-bd0b-247e64018b2a")
+			(uuid "03d7a9f9-5ed3-4b41-870d-450c84b16ef2")
 		)
 		(pad "1" connect circle
 			(at 0 0)
@@ -29809,7 +29810,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "77d1ca6a-1a9f-4e63-bd0b-247e64018b2a")
+			(uuid "c49aa22c-0889-4a4e-b9fc-1f431b029903")
 		)
 		(embedded_fonts no)
 	)
